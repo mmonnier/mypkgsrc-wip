@@ -1,4 +1,4 @@
-$NetBSD: patch-lib_ansible_modules_core_system_setup,v 1.1 2015/08/19 15:04:11 ttys Exp $
+$NetBSD: patch-lib_ansible_modules_core_system_setup,v 1.1 2015/08/19 15:04:11 tty Exp $
 
 Fix hardcoded paths to be replaced with SUBST framework.
 
