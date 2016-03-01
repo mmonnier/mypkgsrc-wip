@@ -1,10 +1,10 @@
-$NetBSD: patch-docs_man_man1_ansible.1,v 1.0 2016/02/24 22:44:09 tty Exp $
+$NetBSD: patch-docs_man_man1_ansible-playbook.1,v 1.0 2016/02/24 22:43:47 tty Exp $
 
 Fix hardcoded paths.
 
---- docs/man/man1/ansible.1.orig	2016-01-14 22:33:35.000000000 +0000
-+++ docs/man/man1/ansible.1
-@@ -132,7 +132,7 @@ Show help message and exit\&.
+--- docs/man/man1/ansible-playbook.1.orig	2016-01-14 22:33:36.000000000 +0000
++++ docs/man/man1/ansible-playbook.1
+@@ -123,7 +123,7 @@ Show help page and exit
  The
  \fIPATH\fR
  to the inventory, which defaults to
@@ -13,7 +13,7 @@ Fix hardcoded paths.
  \fIhost,\fR\&.
  .RE
  .PP
-@@ -159,7 +159,7 @@ Execute the module called
+@@ -154,7 +154,7 @@ List all tasks that would be executed; d
  The
  \fIDIRECTORY\fR
  search path to load modules from\&. The default is
@@ -21,8 +21,8 @@ Fix hardcoded paths.
 +\fI@PREFIX@/share/ansible\fR\&. This can also be set with the ANSIBLE_LIBRARY environment variable\&.
  .RE
  .PP
- \fB\-o\fR, \fB\-\-one\-line\fR
-@@ -273,11 +273,11 @@ ANSIBLE_CONFIG \(em Override the default
+ \fB\-\-private\-key=\fR\fIPRIVATE_KEY_FILE\fR
+@@ -274,11 +274,11 @@ ANSIBLE_CONFIG \(em Override the default
  Many more are available for most options in ansible\&.cfg
  .SH "FILES"
  .sp

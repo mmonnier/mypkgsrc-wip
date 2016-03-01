@@ -1,4 +1,0 @@
-$NetBSD: patch-docs_man_man1_ansible,v 1.1 2015/08/19 15:04:11 tty Exp $
-
-Fix hardcoded paths to be replaced with SUBST framework.
-
